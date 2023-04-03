@@ -1,0 +1,90 @@
+.background{
+    left: 0%;
+    position: absolute;
+    width: 550%;
+    height: 100%;
+    background: url("../IMG/行当/背景.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    /* z-index: -1; */
+}
+html,body{
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.tabbar{
+    position: absolute;
+    height: 100%;
+    width: 12%;
+    background: url("../IMG/菜单行当.png") no-repeat;
+    background-size: contain;
+    z-index: 3;
+}
+
+.text{
+    width: 450%;
+    height: 100%;
+    background: url("../IMG/行当/照片.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+}
+.back-box{
+    width: 450%;
+    z-index: 4;
+    height: 100%;
+}
+.mask{
+    position: absolute;
+    /* top: 30%; */
+    left: 80%;
+    width: 530%;
+    height: 100%;
+    /* background: url("../IMG/行当/面具.png") no-repeat; */
+    background-size: contain;
+    z-index: 2;
+}
+.back-btn{
+    position: absolute;
+    height: 24%;
+    width: 6%;
+    /* border: 10px solid red; */
+    z-index: 5;
+    bottom: 0%;
+}
+
+.toFace{
+    height: 10%;
+    width: 4%;
+    left: 7%;
+    top: 58%;
+    position: absolute;
+    /* border: 10px solid red; */
+    z-index: 4;
+}
+.mask-item{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+}
+
+.sheng{
+    background: url("../IMG/行当/戏曲博物馆-行当-生-面具.png") no-repeat;
+    left: -2%;
+}
+.dan{
+    background: url("../IMG/行当/戏曲博物馆-行当-旦-面具.png") no-repeat;
+    left: 14%
+}
+.jing{
+    background: url("../IMG/行当/戏曲博物馆-行当-净-面具.png") no-repeat;
+    left: 36%;
+}
+.chou{
+    background: url("../IMG/行当/戏曲博物馆-行当-丑-面具.png") no-repeat;
+    left: 50%;
+}
